@@ -37,5 +37,5 @@ func main() {
 	http.Handle("/api", httpHandler)
 	log.Print("ready: http://localhost:5000/\n")
 
-	http.ListenAndServe(":5000", nil)
+	http.ListenAndServe(":8080", nil)
 }
